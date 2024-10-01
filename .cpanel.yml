@@ -1,0 +1,28 @@
+##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tanel5/public_html/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
+    - /bin/cp 2d-portfolio.html $DEPLOYPATH
+    - /bin/cp Readme.txt $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp ai-blog-generator-app.html $DEPLOYPATH
+    - /bin/cp business-app-modern-UI.html $DEPLOYPATH
+    - /bin/cp car-renting-site.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp expense-tracker-app.html $DEPLOYPATH
+    - /bin/cp food-recipe-app.html $DEPLOYPATH
+    - /bin/cp gpt3-modern-ux-ui.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp mern-stack-blog-app.html $DEPLOYPATH
+    - /bin/cp netflix-django-clone.html $DEPLOYPATH
+    - /bin/cp portfolio-details.html $DEPLOYPATH
+    - /bin/cp portfolio.html $DEPLOYPATH
+    - /bin/cp restaurent-model-UI.html $DEPLOYPATH
+    - /bin/cp resume.html $DEPLOYPATH
+    - /bin/cp shopping-cart-app.html $DEPLOYPATH
+    - /bin/cp spotify-django-clone.html $DEPLOYPATH
+    - /bin/cp starter-page.html $DEPLOYPATH
+    - /bin/cp weather-app.html $DEPLOYPATH
